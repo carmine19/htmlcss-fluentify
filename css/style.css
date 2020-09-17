@@ -392,3 +392,154 @@ nav {
 }
 
 /************* fine info ***************/
+
+/************* btop ***************/
+
+
+#btop  {
+    background: #011b50;
+}
+
+#btop .container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#btop .container .row .col-lg-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+#btop .container .row .col-lg-6:first-child {
+   padding: 30px;
+}
+
+#btop .container .row .col-lg-6:first-child h2{
+    color: white;
+    font-size: 40px;
+    line-height: 47px;
+    margin-top: 20px;
+}
+
+#btop .container .row .col-lg-6:first-child p{
+    color: white;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+#btop .container .row .col-lg-6:first-child a{
+    color: #65DE82;
+    text-decoration: none;
+
+}
+
+#btop .container .row .col-lg-6:first-child a:hover{
+    color: #64DE82;
+    opacity: 0.7;
+
+}
+
+#btop .container .row .col-lg-6:last-child  {
+    text-align: center;
+}
+
+#btop .container .row .col-lg-6:last-child img {
+    width: 285px;
+    margin: auto;
+    display: block;
+}
+
+/************* fine btop ***************/
+
+/************* btop ***************/
+
+#bcenter  {
+    margin: 50px auto;
+}
+
+#bcenter .container {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#bcenter .container .row .col-lg-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+#bcenter .container .row .col-lg-6:first-child {
+
+    text-align: center;
+}
+
+#bcenter .container .row .col-lg-6:first-child img {
+    margin: auto;
+    display: block;
+}
+
+#bcenter .container .row .col-lg-6:last-child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+
+}
+
+#bcenter .container .row .col-lg-6:last-child h2 {
+    color: #001A4F;
+    font-size: 27px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#bcenter .container .row .col-lg-6:last-child p {
+    color: #72728E;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+/************* fine btop ***************/
+
+/************* bbottom ***************/
+#b-bottom  {
+    padding: 40px;
+    background: #2A4782;
+}
+
+#b-bottom .container {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#b-bottom .container .row .col-lg-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 15px;
+}
+
+#b-bottom .container .row .col-lg-6:first-child h2 {
+    color: white;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 47px;
+}
+
+#b-bottom .container .row .col-lg-6:last-child p {
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+#b-bottom .container .row .col-lg-6:last-child .button {
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 10px 20px;
+}
